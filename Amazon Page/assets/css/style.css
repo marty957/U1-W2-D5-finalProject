@@ -1,0 +1,123 @@
+/* impostazione generali pagina*/
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+  padding-block: 45px;
+  margin-top: 40px;
+}
+h2 {
+  padding-bottom: 45px;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+main {
+  background-color: #e9edee;
+}
+
+/*header*/
+header figure {
+  background-color: #222f3f;
+  text-align: left;
+  padding-left: 20px;
+  padding-block: 8px;
+}
+
+/*nav*/
+nav {
+  text-align: left;
+  background-color: #364759;
+}
+nav a {
+  color: aliceblue;
+  text-decoration: none;
+  padding-block: 10px;
+  display: inline-block;
+  margin-inline: 10px;
+}
+/*main*/
+
+main {
+  padding: 25px;
+}
+.top {
+  background-color: #f56600;
+  color: #ffe4c6;
+  padding: 8px;
+  font-size: 1em;
+}
+.headings {
+  background-image: url(../images/bg-image.png);
+  color: aliceblue;
+}
+/*section*/
+
+.imgsBlock {
+  display: inline-block;
+  text-align: center;
+  margin-inline: auto;
+  object-fit: cover;
+  vertical-align: top;
+  background-color: aliceblue;
+  margin-block: 20px;
+  width: 100%;
+  box-shadow: 2px 2px 2px 2px lightgrey;
+}
+.imgsBlock img {
+  display: inline-block;
+  border-radius: 10%;
+  vertical-align: top;
+  margin-block: 10px;
+  box-shadow: 2px 2px 5px gray;
+  max-width: 20%;
+  max-height: 20%;
+}
+.imgsBlock h3 {
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+}
+.imgsBlock h3 a {
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 0.9em;
+}
+.imgsBigger {
+  max-width: 100%;
+  margin-block: 20px;
+  padding-bottom: 0px;
+  box-shadow: 2px 2px 2px 2px lightgrey;
+}
+figcaption {
+  font-weight: bold;
+  font-size: 1.3em;
+  text-shadow: #222f3f;
+}
+figcaption a {
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+/*footer*/
+.contFooterA {
+  min-height: 2em;
+  background-color: #364759;
+  padding-top: 10px;
+}
+.contFooterA a {
+  font-weight: bolder;
+  color: aliceblue;
+}
+footer img {
+  width: 100px;
+}
+
+.contFooterB {
+  background-color: #222f3f;
+  padding-block: 20px;
+}
