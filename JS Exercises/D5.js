@@ -119,10 +119,16 @@ for (let i = 0; i < cars.length; i++) {
 */
 console.log("___________esercizio 9_________-");
 const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
+let numArr = 0;
+
+for (let i = 0; i < numericArray.length; i++) {
+  numArr = numericArray[i];
+  console.log(numArr);
+}
 
 let i = 0;
-while (i < numericArray.length && numericArray[i] < 39) {
-  console.log("numero,", numericArray[i]);
+while (i === numArr && i < 39) {
+  console.log("numero,", i);
   i++;
 }
 
