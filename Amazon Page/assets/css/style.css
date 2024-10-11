@@ -52,8 +52,15 @@ main {
   font-size: 1em;
 }
 .headings {
+  object-fit: contain;
+
   background-image: url(../images/bg-image.png);
   color: aliceblue;
+}
+.headings img {
+  text-align: center;
+  min-width: 100%;
+  object-fit: contain;
 }
 /*section*/
 

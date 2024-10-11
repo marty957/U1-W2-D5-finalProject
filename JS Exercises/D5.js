@@ -126,6 +126,7 @@ while (i < numericArray.length)
     break;
   } else {
     console.log(numericArray[i]);
+    i++;
   }
 
 /* ESERCIZIO 10
