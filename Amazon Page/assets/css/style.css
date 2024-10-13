@@ -55,6 +55,7 @@ main {
   object-fit: contain;
 
   background-image: url(../images/bg-image.png);
+  background-position: center;
   color: aliceblue;
 }
 .headings img {
@@ -81,18 +82,23 @@ main {
   vertical-align: top;
   margin-block: 10px;
   box-shadow: 2px 2px 5px gray;
-  max-width: 20%;
-  max-height: 20%;
+  width: 20%;
+  height: 420px;
+  margin-inline: 2em;
+  margin-bottom: 1.4em;
+  object-fit: fill;
 }
 .imgsBlock h3 {
   text-align: left;
   padding: 10px;
   font-weight: bold;
+  font-size: 1.3em;
 }
 .imgsBlock h3 a {
   text-decoration: none;
   margin-left: 30px;
   font-size: 0.9em;
+  color: #195965;
 }
 .imgsBigger {
   max-width: 100%;
@@ -108,6 +114,7 @@ figcaption {
 figcaption a {
   text-decoration: none;
   padding-left: 10px;
+  color: #195965;
 }
 
 /*footer*/
@@ -122,6 +129,7 @@ figcaption a {
 }
 footer img {
   width: 100px;
+  padding-block: 20px;
 }
 
 .contFooterB {
